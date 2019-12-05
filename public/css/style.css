@@ -110,6 +110,21 @@ body {
   overflow-x: hidden;
 }
 
+/*  custom css */
+.p5{
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+.btn-default{
+  border-color:green ;
+}
+.btn-default:hover{
+  background: green;
+  color: white;
+}
+/*  custom css */
+
+
 @media (max-width: 767px) {
   body {
     font-size: 14px;
@@ -558,15 +573,16 @@ img {
 }
 
 .theme-btn-s4 {
-  background-color: #94db40;
-  height: 53px;
-  line-height: 53px;
-  color: #fff;
-  font-weight: 500;
-  display: inline-block;
-  padding: 0 25px;
-  border: 0;
-  outline: 0;
+  margin-top: 10px;
+    background-color: #94db40;
+    height: 35px;
+    line-height: 37px;
+    color: #fff;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0 10px;
+    border: 0;
+    outline: 0;
 }
 
 .theme-btn-s4:hover, .theme-btn-s4:focus, .theme-btn-s4:active {
@@ -3283,10 +3299,14 @@ img {
   border: 2px solid #eeeded;
   border-top: 0;
 }
+.portfolio-section .grid .details > ul{
+  margin-bottom: 10px;
+  letter-spacing: 0.8px;
+}
 
 .portfolio-section .details h3, .portfolio-section-s2 .details h3 {
-  font-size: 18px;
-  font-size: 1.125rem;
+  font-size: 22px;
+  font-size: 1.4rem;
   font-weight: 500;
   margin: 0 0 0.2em;
 }
@@ -3299,14 +3319,14 @@ img {
 }
 
 .portfolio-section .details h3 a, .portfolio-section-s2 .details h3 a {
-  color: #333;
+    color: #94db40;
 }
 
 .portfolio-section .details h3 a:hover, .portfolio-section-s2 .details h3 a:hover {
   color: #94db40;
 }
 
-.portfolio-section .details p, .portfolio-section-s2 .details p {
+.portfolio-section .details p, .portfolio-section-s2 .details ul li {
   font-size: 14px;
   font-size: 0.875rem;
   font-weight: 300;
@@ -3315,7 +3335,7 @@ img {
 }
 
 @media (max-width: 1199px) {
-  .portfolio-section .details p, .portfolio-section-s2 .details p {
+  .portfolio-section .details p, .portfolio-section-s2 .details ul li {
     font-size: 13px;
     font-size: 0.8125rem;
   }
@@ -3436,6 +3456,8 @@ img {
 --------------------------------------------------------------*/
 .fun-fact-section {
   text-align: center;
+  background: #f9f9f9;
+  padding: 80px 0;
 }
 
 @media (max-width: 767px) {
@@ -3466,7 +3488,7 @@ img {
 }
 
 .fun-fact-section .fun-fact-grids .grid {
-  width: 25%;
+  width: 33%;
   float: left;
 }
 
@@ -3523,7 +3545,8 @@ img {
 .team-section .grid .details, .team-section-s2 .grid .details {
   background: rgba(255, 255, 255, 0.9);
   width: 100%;
-  padding: 35px;
+  padding: 30px;
+  text-align: center;
   position: absolute;
   left: 0;
   bottom: -15px;
@@ -4324,6 +4347,7 @@ img {
 --------------------------------------------------------------*/
 .service-section-s2 {
   padding-bottom: 60px;
+  background: #f9f9f9;
 }
 
 @media (max-width: 991px) {

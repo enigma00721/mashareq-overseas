@@ -15,6 +15,11 @@ class FrontController extends Controller
         return view($this->view_path . 'contactus');
     }
 
+    public function aboutUs()
+    {
+        return view($this->view_path . 'aboutus');
+    }
+
     public function procedure()
     {
         return view($this->view_path . 'procedure');

@@ -19,6 +19,10 @@ Route::get('/contact-us' ,[
     'as' => 'contactus',
     'uses' => 'FrontController@contactUs' 
 ]);
+Route::get('/about-us' ,[
+    'as' => 'aboutus',
+    'uses' => 'FrontController@aboutUs' 
+]);
 Route::get('/procedure' ,[
     'as' => 'procedure',
     'uses' => 'FrontController@procedure' 
